@@ -2,6 +2,9 @@
 # http://www.raspberrypi.org/documentation/configuration/config-txt.md
 # Some settings may impact device functionality. See link above for details
 
+kernel=vmlinuz
+initramfs initrd.img followkernel
+
 # uncomment if you get no picture on HDMI for a default "safe" mode
 #hdmi_safe=1
 
